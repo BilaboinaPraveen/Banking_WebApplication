@@ -1,0 +1,10 @@
+package com.web.Repo;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.web.model.Banking;
+@Repository
+public interface BankingRepo extends CrudRepository<Banking, Integer> {
+
+}
